@@ -5,4 +5,6 @@ require 'motion/project'
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'RubyMotionChipmunkTest'
+
+  app.vendor_project 'vendor/Chipmunk-iPhone', :static
 end
